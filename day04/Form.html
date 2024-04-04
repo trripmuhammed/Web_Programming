@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="">
+        <!--
+        <span>Adi:</span>
+        <input type="text">
+        <br>
+        <span>Soyadi:</span>
+        <input type="text">
+        <br>
+        <input type="submit" name="" id="">
+        <input type="reset" name="" id="">
+        -->
+        <table> <!-- border=0 oldugundan tablo seklinde gozukmuyor yoksa normalde tablo-->
+            <tr>
+                <td>Adi:</td>
+                <td><input type="text" name="ad" id="ad" placeholder="Lutfen adinizi giriniz!"></td>
+            </tr>
+            <tr>
+                <td>Soyadi:</td>
+                <td><input type="text" name="soyad" id="soyad" placeholder="Lutfen soyadinizi giriniz!"></td>
+            </tr>
+            <tr>
+                <td>Hobileriniz:</td>
+                <td>
+                    <!-- istedigimiz kadar button secebiliyoruz-->
+                    <input type="checkbox" name="hobi1" id="hobi1"> Yuzme
+                    <input type="checkbox" name="hobi2" id="hobi2"> Spor
+                    <br>
+                    <input type="checkbox" name="hobi3" id="hobi3"> Resim
+                    <input type="checkbox" name="hobi4" id="hobi4"> CS2
+
+                </td>
+            </tr>
+            <tr>
+                <td>Cinsiyetiniz:</td>
+                <td>
+                    <!-- Burda name ve id(opsiyonel) ler ayni cunku zaten 1 tanesini secebiliyorum
+                    value ler normalde icinde yazardi ancak burda yazmiyor backend tarafinda
+                    ayrim yapmak icin valueleri ekledik 
+                    Burda eger nameler ayni olmassa sadece 1 tane yerine ne kadar farkli name varsa
+                    o kadar farkli isaretleme yapabiliriz-->
+                    <input type="radio" name="cinsiyet" id="cinsiyet" value="Kadin"> Kadin
+                    <input type="radio" name="cinsiyet" id="cinsiyet" value="Erkek"> Erkek
+                </td>
+            <tr>
+                <td>Yasiniz:</td>
+                <td>
+                    <input type="number" name="yas" id="yas" min="0" max="18">
+                </td>
+            </tr>
+            <tr>
+                <td>Mailiniz:</td>
+                <td>
+                    <input type="email" name="mail" id="mail" value="@avrasya.edu.tr">
+                    <!-- placeholder yerine value kullanirsak yeni inputumuza value dagil olur-->
+                </td>
+            </tr>
+            <tr>
+                <td>Resminizi Yukleyin:</td>
+                <td>
+                    <input type="file" name="fileInput" id="fileInput">
+                </td>
+            </tr>
+            <tr>
+                <td>Gorus:</td>
+                <td>
+                    <textarea name="gorus" id="" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <td><input type="submit" name="kaydet" id="kaydet" value="KAYDET"></td>
+                <td><input type="reset" name="sil" id="sil" value="SIL"></td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>
