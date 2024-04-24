@@ -1,0 +1,74 @@
+<body style="background-color: brown;">
+<h1 style="text-align: center;">Avrasya University</h1>
+
+
+<table border="3" style="border: 2px solid red;">
+        <tr><!-- satir -->
+            <th>Ogrenci Isim</th><!-- kain sutun(kalin yazi) -->
+            <th>Soyisim</th>
+            <th>Ogrenci Yas</th>
+        </tr>
+th-kalin yazi
+td-normal yazi
+
+rowspan - satir birlestir
+colspan - sutun birlestir
+
+ol -> bir maddelemeye baslatiyor
+istersek type belirtebiliyoruz
+belirtmessek 1- 2- 3- diye gidiyor
+type="A","a","I","i","1","ciricle"(ici bos daire),"square"(kare),"disc"(ici dolu daire)
+li -> madde olusturuyor
+
+
+form:
+
+input type="text", (placeholder dokunulmaz yazi yazmamizi sagliyor)
+"checkbox"(kare kutu),"radio"(tek isaretleme butonu),"number"(min max ekleyebiliriz),
+"email" : (value sine yazdigimiz kutu icinde yazi olarak duruyor)
+,"file",
+submit","reset" : (value ye yazdiklarimiz gozukuyor)
+textarea name="gorus"(name e yazdigimiz gorunuyor) cols,rows la boyut belirleyebiliriz
+
+
+<link rel="stylesheet" href="css.css">
+
+html ici:
+<style>
+        #id1 {
+            color: aqua;
+        }
+
+        h1 {
+            color: blueviolet;
+            font-size: 42px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+
+    <p style="color: blue;">Hello World! (inline)</p> <!-- tag icinde -->
+    <p id="id1">Merhaba Dunya (internal)</p> <!-- ayni dosyada(style tanimlama) -->
+    <p id="id2">Merhaba Dunya (external)</p>
+    <!-- harici css dosyasinda tanimlanir.Bircok html sayfasinda aynanda kullanabiliriz -->
+
+#id2{
+    color: red;
+}
+
+h2{
+    color: brown;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a:link a:visited{
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover{
+  color: red;
+}
+a:active{
+  color:green
+}

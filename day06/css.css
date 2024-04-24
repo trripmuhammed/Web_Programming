@@ -8,3 +8,17 @@ h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+/*
+a{
+  color: yellow
+}*/
+a:link a:visited{
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover{ /* uzerine gelince */
+  color: red;
+}
+a:active{ /* basili tutuldugunda */
+  color:green
+}
