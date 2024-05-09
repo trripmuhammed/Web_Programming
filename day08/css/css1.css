@@ -1,0 +1,10 @@
+p::first-letter { /* ilk hatf */
+    color: blue;
+    font-size: 90px;
+}
+p::first-line{ /* ilk satir */
+    color: aquamarine;
+} 
+#harf { /* "harf" id sine ait olan */
+    font-size: 40px;
+}
