@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../Web-Site/style.css">
+</head>
+
+<body>
+
+  <!-- NavBar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- hepsinin ayni hizada olmasini sagliyor-->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="color: blueviolet;">E-Commerce</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex margin-auto mx-auto" role="search">
+          <input class="form-control me-2" type="search" placeholder="Arama Kutusu" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Arama</button>
+        </form>
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 me-2">
+          <li class="nav-item">
+            <a href="#" class="nav-link"><img src="" alt="">Hesabim</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><img src="" alt="">Listem</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link "><img src="" alt="">Sepetim</a>
+          </li>
+        </ul> 
+
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Row-Nav -->
+  <div class="row mx-auto">
+    <div class="d-inline-flex gap-1 " style="background-color: blueviolet;">
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample">
+        Elektronik
+      </a>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample">
+        Moda
+      </a>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample">
+        Kozmetik
+      </a>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample">
+        Spor
+      </a>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample">
+        Market
+      </a>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample">
+        Kitap
+      </a>
+      <div class="dropdown">
+        <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Diger Kategoriler
+        </a>
+
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Slider -->
+  <div class="container-fluid" style="background-color: white; width: 1300px; height: 400px; ">
+    <div class="row">
+      <div class="col-md-4 mt-3 me-4 " style="height: 300px; width: 400px;">
+        <div class="list-group">
+          <button type="button" class="list-group-item list-group-item-action active"
+            style="background-color: blueviolet;">
+            The current button
+          </button>
+          <button type="button" class="list-group-item list-group-item-action">Elektronik</button>
+          <button type="button" class="list-group-item list-group-item-action">Moda</button>
+          <button type="button" class="list-group-item list-group-item-action">Kozmetik</button>
+          <button type="button" class="list-group-item list-group-item-action">Spor</button>
+          <button type="button" class="list-group-item list-group-item-action">Market</button>
+          <button type="button" class="list-group-item list-group-item-action">Kitap</button>
+          <button type="button" class="list-group-item list-group-item-action">Oyuncak</button>
+          <button type="button" class="list-group-item list-group-item-action">Oyuncak</button>
+        </div>
+      </div>
+      <div class="col-md-8 mt-4 mx-auto" style="height: 400px; width: 600px; ">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner" style=" width:600px; height: 350px;">
+            <div class="carousel-item active">
+              <img src="images/destkop.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/laptop.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/TV1.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Cards-->
+
+  <h2>Son Eklenenler</h2>
+  <div class="row row-cols-1 row-cols-md-4 g-3 mt-2 me-auto mx-auto gap-3 justify-content-center">
+    <div class="col">
+      <div class="card h-50 ">
+        <img src="images/Iphone.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Iphone</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="images/Samsung.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Samsung</h5>
+          <p class="card-text">This is a short card.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="images/Redmi.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Redmi</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="images/Oppo.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">OPPO</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Space 2side ayni blokla olunca spacer koyabiliyoruz-->
+  <div class="w-100 mt-5" style="height: 50px; background-color: white;"></div>
+  <!-- 2.Card-->
+
+  <div class="row row-cols-1 mt-1 row-cols-md-4 g-3 me-auto mx-auto gap-3 justify-content-center">
+    <div class="col">
+      <div class="card h-50">
+        <img src="images/Iphone.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Iphone</h5>
+          <p class="card-text">10000</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="images/Samsung.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Samsung</h5>
+          <p class="card-text">This is a short card.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="images/Redmi.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Redmi</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-50">
+        <img src="images/Oppo.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">OPPO</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer mt-2" style="background-color: blueviolet;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 d-flex subscribe-form">
+          <form class="d-flex mt-2 align-items-center w-100">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-Mail" style="height: 50px;">
+            <button type="submit" class="btn btn-primary" style="background-color: blueviolet; color: gold; border-color: gold; height: 50px; width: 200px;">Abone Ol</button>
+          </form>
+        </div>
+        <div class="col-md-8 d-flex align-items-center justify-content-end social-icons">
+          <a class="text-body-secondary ms-3" href="#"><img src="svgs/facebook.svg" alt="Facebook"></a>
+          <a class="text-body-secondary ms-3" href="#"><img src="svgs/instagram.svg" alt="Instagram"></a>
+          <a class="text-body-secondary ms-3" href="#"><img src="svgs/youtube.svg" alt="YouTube"></a>
+          <a class="text-body-secondary ms-3" href="#"><img src="svgs/x.svg" alt="Twitter"></a>
+        </div>
+        <div class="col-12 text-center mt-3 my-4">
+          <strong>
+          <p class="mb-0  text-body-primery" style="color: white;">© 2025 Tüm Hakları Saklıdır</p>
+        </strong>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+mx-saga kaydir
+mt-asagi kaydir
+me-sola kaydir
+my-uste kaydir
+
+py- genislik
+
+d-flex - ogelerin yatay yan yana gelmsini saglar
+justify-content - ogelerin hizalanmasi ve bosluklarin dagitilmasi
+align-items - sutunda nerde duracak

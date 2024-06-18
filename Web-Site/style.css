@@ -1,0 +1,23 @@
+.list-group-item{
+    color: blueviolet;
+}
+
+.btn-primary{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: gray;
+}
+
+.card{
+    width: 18rem;
+    height: 300px;
+}
+
+.col{
+    background-color: white;
+    width: 300px;
+}
+
+body{
+    background-color:aliceblue;
+}
